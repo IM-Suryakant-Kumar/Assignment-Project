@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #32FF7E;
+    color: #192a56;
+    width: 93vw;
+    height: 5.5rem;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 0 0 0 1rem;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    color: #192a56;
+}
+
+a {
+    color: #192a56;
+    text-decoration: none;
+}
+
+nav ul li:first-child{
+    font-weight: bold;
+}
+
+
+
+body > img {
+    width: 70%;
+    height: auto;
+    margin-top: 2rem;
+    position: relative;
+    left: 15%;
+}
+
+body > p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.left {
+    color: #94a3b8;
+}
+
+.right {
+    color: #32FF7E;
+}
+
+section {
+    margin-top: 6rem;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+}
+section p {
+    font-size: 1.2rem;
+    color: #64748b;
+}
+
+.technology {
+    width: 93vw;
+    margin: auto;
+    border-radius: 0.5rem;
+    background-color: #e5e7eb;
+    padding: 1.7rem 2rem;
+}
+
+.project {
+    width: 93vw;
+    /* height: 10rem; */
+    margin: auto;
+    border-radius: 0.5rem;
+    padding: 6rem 2rem;
+}
+
+button {
+    background-color: #32FF7E;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1.9px solid #32FF7E;
+    border-radius: 1rem ;
+    padding: 0.5rem 1rem;
+}
+
+button a {
+    color: #192a56;
+}
+
+.blog {
+    width: 93vw;
+    margin: auto;
+    border-radius: 0.5rem;
+    background-color: #e5e7eb;
+    padding: 1.7rem 2rem;
+}
+
+.blog button {
+    background-color: #fff;
+}
+
+.blog button a {
+    color: #32FF7E;
+    font-weight: normal;
+}
+
+footer {
+    position: relative;
+    top: 5rem;
+    background-color: #32FF7E;
+    color: #192a56;
+    width: 93vw;
+    height: 9rem;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 0 1rem 0 0;
+    text-align: center;
+}
+
+footer ul {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer ul li {
+    font-weight: bold;
+    margin-right: 2rem;
+}
