@@ -14,12 +14,11 @@ nav {
     margin: auto;
     border-radius: 0 0 0 1.1rem;
     font-size: 1.1rem;
-    padding: 0.4rem;
 }
 
-.name {
+nav .name {
     font-weight: bold;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 ul {
@@ -32,7 +31,7 @@ ul {
 
 ul li{
     padding-bottom: 1rem;
-    margin-right: 2.71rem;
+    margin-right: 2.52rem;
 }
 
 a {
@@ -50,8 +49,7 @@ body > img {
     width: 70%;
     height: auto;
     margin-top: 2rem;
-    position: relative;
-    left: 15%;
+    margin: 2rem 0rem 0rem 15%;
 }
 
 body > p {
@@ -59,6 +57,7 @@ body > p {
     font-size: 2rem;
     font-weight: bold;
     margin-top: 1rem;
+    margin-bottom: 5rem;
 }
 
 .left {
@@ -72,8 +71,6 @@ body > p {
 section {
     margin-top: 6rem;
     text-align: center;
-    position: relative;
-    top: 3rem;
 }
 section p {
     font-size: 1.2rem;
@@ -90,7 +87,6 @@ section p {
 
 .project {
     width: 95vw;
-    /* height: 10rem; */
     margin: auto;
     border-radius: 1.2rem;
     padding: 6rem 2rem;
@@ -115,6 +111,7 @@ button a {
     border-radius: 1.1rem;
     background-color: #e5e7eb;
     padding: 1.7rem 2rem;
+    margin-bottom: 2rem;
 }
 
 .blog button {
@@ -127,15 +124,13 @@ button a {
 }
 
 footer {
-    position: relative;
-    top: 5rem;
     background-color: #32FF7E;
     color: #192a56;
     width: 95vw;
+    height: 9rem;
     margin: auto;
     border-radius: 0 1.1rem 0 0;
     text-align: center;
-    padding: 1.5rem 0rem;
 }
 
 footer ul {
@@ -144,14 +139,15 @@ footer ul {
 }
 
 footer ul li {
-    padding: 0.6rem 0rem 1.5rem 0rem;
+    padding-bottom: 1rem;
     font-weight: bold;
-    margin-right: 2.51rem;
+    margin-right: 2.06rem;
 }
 
 footer .name {
     font-size: 1.5rem;
     font-weight: bold;
+    padding: 2rem 0rem 1rem 0rem;
 }
 
 @media screen and (min-width: 900px) {
