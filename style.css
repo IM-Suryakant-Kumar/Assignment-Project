@@ -18,7 +18,7 @@ nav {
 
 nav .name {
     font-weight: bold;
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 0.8rem 1rem;
 }
 
 ul {
@@ -27,12 +27,12 @@ ul {
     flex-wrap: wrap;
     list-style: none;
     margin: 0rem;
-    padding-bottom: 0.5rem;
+    padding: 0.4rem 0.1rem;
 }
 
 ul li{
     padding-bottom: 1rem;
-    margin-right: 2.28rem;
+    margin-right: 2.6rem;
 }
 
 a {
