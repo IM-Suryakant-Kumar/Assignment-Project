@@ -10,15 +10,16 @@ body {
 nav {
     background-color: #32FF7E;
     color: #192a56;
-    width: 92vw;
+    width: 95vw;
     margin: auto;
     border-radius: 0 0 0 1.1rem;
     font-size: 1.1rem;
-    padding: 1rem 1rem 0.3rem 1rem;
+    padding: 0.4rem;
 }
 
 .name {
     font-weight: bold;
+    padding: 0.5rem;
 }
 
 ul {
@@ -26,13 +27,12 @@ ul {
     justify-content: flex-end;
     flex-wrap: wrap;
     list-style: none;
-    margin-top: 0.1rem;
+    margin: 0rem;
 }
 
-nav ul li{
-    padding: 0.3rem 0rem;
-    margin-right: 2.5rem;
-    color: #192a56;
+ul li{
+    padding-bottom: 1rem;
+    margin-right: 2.71rem;
 }
 
 a {
@@ -81,18 +81,18 @@ section p {
 }
 
 .technology {
-    width: 93vw;
+    width: 95vw;
     margin: auto;
-    border-radius: 0.5rem;
+    border-radius: 1.1rem;
     background-color: #e5e7eb;
     padding: 1.7rem 2rem;
 }
 
 .project {
-    width: 93vw;
+    width: 95vw;
     /* height: 10rem; */
     margin: auto;
-    border-radius: 0.5rem;
+    border-radius: 1.2rem;
     padding: 6rem 2rem;
 }
 
@@ -110,9 +110,9 @@ button a {
 }
 
 .blog {
-    width: 93vw;
+    width: 95vw;
     margin: auto;
-    border-radius: 0.5rem;
+    border-radius: 1.1rem;
     background-color: #e5e7eb;
     padding: 1.7rem 2rem;
 }
@@ -131,18 +131,22 @@ footer {
     top: 5rem;
     background-color: #32FF7E;
     color: #192a56;
-    width: 93vw;
+    width: 95vw;
     margin: auto;
-    padding: 2rem;
     border-radius: 0 1.1rem 0 0;
     text-align: center;
+    padding: 1.5rem 0rem;
 }
 
 footer ul {
-    margin-top: 1rem;
-    margin-right: 2rem;
     display: flex;
     justify-content: center;
+}
+
+footer ul li {
+    padding: 0.6rem 0rem 1.5rem 0rem;
+    font-weight: bold;
+    margin-right: 2.51rem;
 }
 
 footer .name {
@@ -150,15 +154,13 @@ footer .name {
     font-weight: bold;
 }
 
-footer ul li {
-    font-weight: bold;
-    margin-right: 2rem;
-    padding: 0.3rem 0rem;
-}
-
 @media screen and (min-width: 900px) {
     nav {
         width: 85vw;
+    }
+
+    ul li{
+        margin-right: 4rem;
     }
 
     footer {
